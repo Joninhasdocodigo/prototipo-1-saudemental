@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    font-family: DynaPuff;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../images/fundo.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-color: #faf8fc;
+}
+
+header {
+    background-color: #EDEDED;
+    display: flex;
+    padding: 0px 20px;
+    border-radius: 20px;
+    justify-content: space-between;
+    color: #421C81;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 0;
+
+    nav a {
+        text-decoration: none;
+        color: #421C81;
+        font-size: 14px;
+        margin: 0 10px;
+        padding: 4px;
+
+    }
+
+    nav a:hover {
+
+        background-color: #421C81;
+        color: #fff;
+        padding: 4px;
+        border-radius: 8px;
+    }
+
+    #comecar {
+        text-decoration: none;
+        color: white;
+        background-color: #421C81;
+        padding: 8px;
+        border-radius: 10px;
+        border: 2px solid #421C81;
+    }
+
+    #comecar:hover {
+        background-color: #fff;
+        color: #421C81;
+        padding: 8px;
+    }
+
+    #logo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        img {
+            width: 100px;
+        }
+    }
+
+}
+
+main {
+    margin: 0 auto;
+    display: flex;
+    height: 90vh;
+    h2{
+        text-align: center;
+        padding: 20px;
+    }
+    div{
+        margin-top: 200px;
+    }
+
+    form{
+        align-items: center;
+        height: 500px;
+        padding: 30px;
+        text-align: end;
+        gap: 6px;
+        color: #421C81;
+        div{
+            margin: 4px;
+        }
+        label{
+            font-size: 20px;
+        }
+        input{
+            padding: 4px 20px;
+            max-width: 200px;
+        }
+    }
+}
+
+
+hr{
+    border: 4px solid #EDEDED;
+
+}
+footer {
+    display: flex;
+    margin: 0;
+    padding: 8px;
+    background-color: #421C81;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 8px;
+
+    p {
+        color: #fff;
+        margin: 0;
+        font-size: 12px;
+    }
+}

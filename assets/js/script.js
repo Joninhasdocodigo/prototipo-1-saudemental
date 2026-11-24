@@ -18,3 +18,14 @@ linksInternos.forEach((link) => {
     });
   });
 });
+
+function abrirMapa() {
+
+  const caixa = document.getElementById("map");
+  caixa.style.display = "flex";
+}
+
+function fecharMapa() {
+  const caixa = document.getElementById("map");
+  caixa.style.display = "none";
+}
